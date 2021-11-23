@@ -1,0 +1,46 @@
+.btnLine {
+    color: $clr-primario;
+    font-size: 1.7rem;
+    margin: 0px 10px 0px 10px;
+    box-sizing: border-box;
+    background: transparent;
+    text-shadow: black .5px 2px;
+  
+    &:hover {
+      color: $clr-violeta;
+      font-family: 'Lobster', cursive;
+      text-decoration: underline;
+    }
+  }
+  
+  .btnPrimary {
+    color: $clr-blanco;
+    background: $clr-primario;
+    padding: .7em 1.75em;
+    letter-spacing: .1em;
+    border-radius: .25em;
+    font-weight: 700;
+  }
+  
+  .btnContacto {
+    margin: .5em auto 0;
+    padding: .7em 1.4em;
+    border-radius: .3em;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: $clr-blanco;
+    font-weight: 600;
+  }
+
+  .nav_btn {
+    fill: black;
+    display: block;
+    cursor: pointer;
+    width: 35px;
+
+    &-close {
+        float: right;
+        margin: 2em;
+    }
+}

@@ -1,0 +1,23 @@
+* {
+    margin: 0; 
+    padding: 0;
+    color: inherit;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+img,
+video,
+svg {
+    max-width: 100%;
+    height: auto;
+}
+
+.brand {
+    font-family: "Montserrat";
+	color: gray;
+	font-size: 1.5rem;
+	font-weight: 600;
+
+}

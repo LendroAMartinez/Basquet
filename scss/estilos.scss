@@ -1,0 +1,18 @@
+@import './utilities/variables';
+@import './utilities/functions';
+@import './utilities/mixins';
+@import './utilities/mediaqueries';
+
+@import './base/reset';
+@import './base/typo';
+
+@import './layout/flex';
+@import './layout/header';
+@import './layout/footer';
+@import './layout/forms';
+@import './layout/main';
+
+@import './components/buttons';
+
+@import './views/home';
+@import './views/contact';

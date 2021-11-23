@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/estilos.css">
+    <script src = "https://code.iconify.design/2/2.0.4/iconify.min.js"> </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="divLogo">
+            <a class="logo unEfecto" href="index.html"><span class="iconify" data-icon="noto:basketball"></span></a>
+            <a href="index.html"><p class="logo logoShadow"><span class="marron fontE brand">Basquet</span><span class="violeta fontI brand">Retro</span></p></a>
+        </div>
+
+        <svg class="nav_btn nav_btn-open" id="navOpen" viewBox="0 0 32 32">
+            <path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z" />
+        </svg>
+
+        <nav id="nav">
+            <svg viewBox="0 0 24 24" class="nav_btn nav_btn-close" id="navClose">
+                <path d="M14.8,12l3.6-3.6c0.8-0.8,0.8-2,0-2.8c-0.8-0.8-2-0.8-2.8,0L12,9.2L8.4,5.6c-0.8-0.8-2-0.8-2.8,0   c-0.8,0.8-0.8,2,0,2.8L9.2,12l-3.6,3.6c-0.8,0.8-0.8,2,0,2.8C6,18.8,6.5,19,7,19s1-0.2,1.4-0.6l3.6-3.6l3.6,3.6   C16,18.8,16.5,19,17,19s1-0.2,1.4-0.6c0.8-0.8,0.8-2,0-2.8L14.8,12z" />
+            </svg>
+            <ul class="nav__ul">
+                <li class="nav__li nav__li--principal"><a class="btnLine fontL" href="index.html">Principal</a></li>
+                <li class="nav__li"><a class="btnLine fontL" href="reglas.html">Reglas</a></li>
+                <li class="nav__li"><a class="btnLine fontL" href="equipos.html">Equipos</a></li>
+                <li class="nav__li"><a class="btnLine fontL" href="fechas.html">Fechas</a></li>
+                <li class="nav__li"><a class="btnLine fontL" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <main>
+            <section class="secH1">
+                <div class="secH1__txt">
+                    <h1 class="secH1__title"><span class="violeta fontE">Torneo de</span><span class="marron fontE"> Basquet</span></h1>
+                </div>
+            </section>
+
+            <section class="secEnvoltura about pdX2">
+                <h2>¿Que es <span class="marron fontE logo">Basquet</span> <span class="violeta fontI logo">Retro</span>?</h2>
+                <div class="secEnvoltura__interior mediaOnly">
+                    <img src="/imagenes/seccion-about.jpg" alt="Imagen">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptate minima id accusantium animi! <span class="primario brand">No Federados</span> Optio eveniet consequatur quaerat praesentium voluptatum facere, ea alias eaque nesciunt incidunt iste, dolore tempore est!</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione <span class="primario brand">sin limite de edad</span> facilis facere voluptas deleniti error tempore minus ipsa, in nesciunt praesentium obcaecati perspiciatis, quisquam fuga! Similique sed rem repellendus autem animi.</p>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptate minima id accusantium animi! <span class="primario brand">divertirse</span> Optio eveniet consequatur quaerat praesentium voluptatum facere, ea alias eaque nesciunt incidunt iste, dolore tempore est!</p>
+                </div>
+            </section>
+
+            <section class="secEnvoltura pdX2">
+                <h2 class="secEnvoltura__encabezado">Unite a <span class="marron fontE logo">Basquet</span> <span class="violeta fontI logo">Retro</span></h2>
+                <div>
+                    <div class="card">
+                        <div class="card__img">
+                            <img class="card__aboutImg" src="/imagenes/seccion-registra.jpg" alt="Imagen">
+                        </div>
+                        <div class="card__txt">
+                            <h3>Registra a tu equipo</h3>
+                            <p>facere, ea alias eaque nesciunt incidunt iste, dolore</p>
+                            <a href="contacto.html" class="btnPrimary btnMediaOnly">Registrar mi equipo</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="/imagenes/seccion-hinchada.jpg" alt="Imagen">
+                        </div>
+                        <div class="card__txt">
+                            <h3>O ven a ver los partidos</h3>
+                            <p>facere, ea alias eaque nesciunt incidunt iste, dolore</p>
+                            <a href="fechas.html" class="btnPrimary btnMediaOnly">Proximas fechas</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="sm">
+				<a href="#" title="Facebook" class="icon-sm">
+					<span class="iconify" data-icon="mdi:facebook"></span>
+				</a>
+				<a href="#" title="Twitter" class="icon-sm">
+					<span class="iconify" data-icon="mdi:twitter"></span>
+				</a>
+				<a href="#" title="Instagram" class="icon-sm">
+					<span class="iconify" data-icon="mdi:instagram"></span>
+				</a>
+			</div>
+            <p class="copyright">&copy; 2021 BasquetRetro Inc. All rights reserved.</p>
+        </footer>
+
+        <script src="./scripts/nav.js"></script>
+</body>
+</html>

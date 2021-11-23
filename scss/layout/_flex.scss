@@ -1,0 +1,46 @@
+  .divLogo {
+    display: flex;
+    margin-left: 2em;
+  }
+  
+  .secH1__txt {
+    width: 100%;
+    height: 100%;
+    @include flex(initial, initial, center, center, initial, initial)
+  }
+  
+  footer {
+    @include flex(initial, nowrap, initial, initial, initial, initial)
+  }
+  
+  .sm {
+    width: 50%;
+    @include flex(initial, initial, flex-end, initial, initial, initial)
+  }
+  
+  .contacto1 {
+    padding: 2em;
+    width: 50rem;
+    @include flex(initial, initial, center, initial, initial, initial)
+  }
+  
+  .contactoForm {
+    padding: 1.7em 2em;
+    min-width: 400px;
+    max-width: 500px;
+    @include flex(initial, initial, initial, initial, column, initial)
+  }
+  
+  .artContacto {
+    @include flex(initial, initial, initial, initial, column, 1em)
+  }
+  
+  div form div label {
+    @include flex(initial, initial, initial, center, initial, .1em)
+  }
+  
+  .secEnvoltura__2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
