@@ -299,7 +299,7 @@ span.brand {
 
 .secH1 {
   height: calc(100vh - 115px);
-  background-image: url(/imagenes/fondoH1.jpeg);
+  background-image: url(./imagenes/fondoH1.jpeg);
   background-position: top center;
   background-attachment: fixed;
 }
